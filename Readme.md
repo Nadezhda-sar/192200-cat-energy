@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Надежда Панченко](https://up.htmlacademy.ru/adaptive/14/user/192200).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Старшинов] (https://htmlacademy.ru/profile/id100874).
 
 ---
 
