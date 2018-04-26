@@ -1,0 +1,31 @@
+.contacts {
+  margin-bottom: 38px;
+}
+
+.contacts__contact {
+  margin-bottom: 25px;
+}
+
+.contacts__text {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding-right: 10px;
+  width: 140px;
+}
+
+.contacts__address {
+  font-size: 14px;
+  line-height: 20px;
+
+  width: 140px;
+  margin: 0;
+}
+
+.contacts_map {
+  width: 320px;
+  height: 362px;
+  margin: 0 auto;
+}

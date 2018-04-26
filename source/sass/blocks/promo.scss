@@ -1,0 +1,29 @@
+.promo {
+  margin-bottom: 22px;
+}
+
+.promo__title-wrap {
+  margin-top: 28px;
+  min-height: 350px;
+
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #63a73a;
+  background-image: url("..img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.promo__title {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.promo__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
