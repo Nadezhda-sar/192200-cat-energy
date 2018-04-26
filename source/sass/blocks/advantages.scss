@@ -2,14 +2,18 @@
   padding-bottom: 20px;
 }
 
-.advantages_title {
+.advantages__title {
   margin: 0;
   margin-bottom: 28px;
 
-  font-weight: 400;
+
   font-size: 36px;
   line-height: 60px;
-  color: #111111;
+  color: $color-secondary-font;
+}
+
+.advantages__list {
+  @include list-reset;
 }
 
 .advantages__item {

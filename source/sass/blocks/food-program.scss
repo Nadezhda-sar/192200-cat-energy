@@ -1,0 +1,64 @@
+.food-program__item {
+  margin-bottom: 20px;
+
+  background-color: $color-secondary;
+}
+
+.food-program__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 37px;
+  color: $color-secondary-font;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+  padding-left: 20px;
+}
+
+.food-program__title::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+
+  background-color: $color-interactive;
+  border-radius: 50%;
+}
+
+.food-program__title::after {
+  content: "";
+  background-repeat: no-repeat;
+}
+
+.food-program__title--slim::after {
+  width: 36px;
+  height: 53px;
+
+  background-image: url("../img/icon-cat-slim.svg");
+}
+
+.food-program__title--pro::after {
+  width: 70px;
+  height: 30px;
+
+  background-image: url("../img/icon-cat-pro.svg");
+}
+
+.food-program__info {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.food-program__link {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  font-size: 16px;
+  line-height: 16px;
+  color: $color-secondary-font;
+  text-transform: uppercase;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
