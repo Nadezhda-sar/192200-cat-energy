@@ -185,7 +185,7 @@
             <a class="catalog__button button" href="#">Заказать</a>
           </div>
           <div class="catalog__item">
-            <div class="catalog__wrapper">
+            <div class="catalog__wrapper--add">
               <div class="catalog__item__button"></div>
               <p class="catalog__add-text">Показать еще 100500 товаров</p>
               <p class="catalog__add-description">На самом деле вкусов гораздо больше!</p>
@@ -198,7 +198,7 @@
     </section>
     <section class="additional-products">
       <div class="container">
-      <h2>Дополнительные товары</h2>
+      <h2 class="additional-products__caption">Дополнительные товары</h2>
       <div class="additional-products__wrapper">
         <ul class="additional-products__list">
           <li class="additional-products__item">
@@ -226,9 +226,12 @@
             <a class="additional-products__button button" href="#">Заказать</a>
           </li>
         </ul>
-        <div class="additional-products__banner banner">
-          <img class="banner__image" src="#" widht="#" height="#" alt="Подарок">
-          <a class="banner__link" href="#">Закажите все и получите чехол для кота в подарок!</a>
+        <div class="additional-products__banner">
+          <div class="container">
+            <div class="banner">
+              <p class="banner__description">Закажите все и получите чехол для кота в подарок!</p>
+            </div>
+            </div>
         </div>
       </div>
     </div>
@@ -253,13 +256,19 @@
           <div class="page-footer__social social">
             <ul class="social__list">
               <li class="social__item">
-                <a class="social__link social__link--vkontacte" href="https://vk.com/htmlacademy">Мы в контакте</a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+                  <a class="social__link social__link--vkontacte" href="https://vk.com/htmlacademy">
+                    <span class="visually-hidden">Мы в контакте</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">
+                    <span class="visually-hidden">Мы в Инстаграме</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+                    <span class="visually-hidden">Мы в Фейсбуке</span>
+                  </a>
               </li>
             </ul>
           </div>

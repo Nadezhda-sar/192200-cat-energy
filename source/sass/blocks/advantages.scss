@@ -6,10 +6,10 @@
   margin: 0;
   margin-bottom: 28px;
 
+  color: $color-secondary-font;
 
   font-size: 36px;
   line-height: 60px;
-  color: $color-secondary-font;
 }
 
 .advantages__list {
@@ -18,34 +18,38 @@
 
 .advantages__item {
   position: relative;
+
   margin-bottom: 20px;
   padding-left: 80px;
 }
 
 .advantages__description {
   padding-top: 4px;
+
   font-size: 14px;
   line-height: 16px;
 }
 
 .advantages__item::before {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
 
   width: 60px;
   height: 60px;
+
+  content: "";
 }
 
 .advantages__item::after {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
 
   width: 60px;
   height: 60px;
+
+  content: "";
 
   background-repeat: no-repeat;
   background-position: center;

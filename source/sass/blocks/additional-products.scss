@@ -1,0 +1,51 @@
+.additional-products {
+  margin-bottom: 30px;
+}
+
+.additional-products__caption {
+  margin-bottom: 30px;
+
+  color: $color-main-font;
+
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.additional-products__item {
+  padding-top: 14px;
+  padding-bottom: 17px;
+
+  list-style: none;
+
+  border-bottom: 1px solid #cdcdcd;
+
+}
+
+.additional-products__title {
+  margin-bottom: 15px;
+
+  text-transform: uppercase;
+
+  color: $color-third-font;
+
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.additional-products__value {
+  text-align: left;
+
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.additional-products__price {
+  text-align: right;
+
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.additional-products__button {
+  width: 100%;
+}
