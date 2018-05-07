@@ -1,14 +1,17 @@
 .promo {
   margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .promo__title-wrap {
+  min-height: 305px;
   margin-top: 28px;
-  min-height: 350px;
 
   text-align: center;
-  color: #ffffff;
 
+  color: $color-interactive-text;
   background-color: #63a73a;
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
@@ -16,14 +19,81 @@
 }
 
 .promo__title {
-  font-size: 36px;
-  line-height: 36px;
   margin: 0;
   margin-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 17px;
+  padding-right: 17px;
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .promo__slogan {
-  font-size: 14px;
-  line-height: 14px;
   text-transform: uppercase;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.promo__img-wrap {
+  margin-top: -150px;
+}
+
+.promo__button {
+  width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+
+  .promo__title-wrap {
+    padding-left: 90px;
+
+    text-align: left;
+
+    background-color: #ffffff;
+    background-image: none;
+    width: 425px;
+
+  }
+
+  .promo__title {
+    color: black;
+
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+
+  .promo__slogan {
+    color: black;
+
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 50px;
+  }
+
+  .promo__img-wrap {
+    margin-top: -150px;
+    margin-left: 160px;
+  }
+
+  .promo__button {
+    width: 245px;
+
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    margin-bottom: 80px;
+    justify-content: space-between;
+  }
+
+  .promo__title-wrap {
+    margin-left: 80px;
+    margin-top: 110px;
+  }
 }

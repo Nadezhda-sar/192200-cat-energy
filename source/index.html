@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Кэт энерджи</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <div class="container">
         <a class="page-header__logo">
-          <img class="page-header__logo-image" src="img/logo-mobile.svg" width="191" height="38" alt="Кэт энерджи">
+          <img class="page-header__logo-image" src="img/logo-mobile.svg" width="190" height="40" alt="Кэт энерджи">
         </a>
         <nav class="main-nav">
           <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -33,7 +34,7 @@
       <section class="promo">
         <div class="promo__title-wrap">
           <div class="container">
-            <h1 class="promo__title">Функциональное питание для котов</h1>
+            <h2 class="promo__title">Функциональное питание для котов</h2>
             <p class="promo__slogan">Занялся собой? Займись котом!</p>
           </div>
         </div>
@@ -50,12 +51,16 @@
            <div class="food-program__item">
              <h3 class="food-program__title food-program__title--slim">Похудение</h3>
              <p class="food-program__info">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-             <a class="food-program__link" href="#">Каталог Slim</a>
+             <a class="food-program__link" href="#">
+               <span class="food-program__link-description">Каталог Slim</span>
+             </a>
            </div>
            <div class="food-program__item">
             <h3 class="food-program__title food-program__title--pro">Набор массы</h3>
             <p class="food-program__info">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-            <a class="food-program__link" href="#">Каталог Pro</a>
+            <a class="food-program__link" href="#">
+                <span class="food-program__link-description">Каталог Pro</span>
+            </a>
            </div>
         </section>
         <section class="advantages">
@@ -79,7 +84,7 @@
           <div class="example__wapper">
             <h2 class="example__title">Живой пример</h2>
             <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
-            <ul class="example__list">
+            <ul class="example__list result">
               <li class="example__item example__item--weight">
                 <p class="example__value">5 кг</p>
                 <p class="example__text">снижение веса</p>
@@ -89,9 +94,18 @@
                   <p class="example__text">затрачено времени</p>
               </li>
               </ul>
-              <p class="example__sum">Затраты на питание: 15 000 руб.</p>
-              <div class="example__slider slider">
+              <p class="example__sum">Затраты на питание:
+                <span class="example__sum--value"> 15 000 руб.</span>
+              </p>
+              <div class="example__slider">
               <img class="example__foto" src="img/before-mobile@1x.png" widht="320" height="240" alt="Кот">
+            </div>
+            <div class="example__toggle toggle">
+                <span class="toggle__label toggle__label--before" tabindex="0">Было</span>
+                <div class="toggle__range">
+                  <div class="toggle__slider"></div>
+                </div>
+                <span class="toggle__label toggle__label--after" tabindex="0">Стало</span>
             </div>
           </div>
         </section>
