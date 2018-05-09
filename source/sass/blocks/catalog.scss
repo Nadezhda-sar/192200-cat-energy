@@ -1,11 +1,19 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+}
+
 .page-main__title {
   margin-bottom: 40px;
+  margin-top: 30px;
 
   color: $color-secondary-font;
 
   font-size: 36px;
   line-height: 60px;
+  font-weight: 400;
 }
+
 
 .catalog__item {
   margin-bottom: 25px;
@@ -106,3 +114,21 @@
   width: 100%;
 }
 
+@media (min-width: $tablet-width) {
+  .page-main__title {
+    font-size: 60px;
+    padding: 0;
+    margin-bottom: 90px;
+  }
+
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+}
