@@ -1,0 +1,29 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.copyright__link {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: $font-secondary;
+}
+
+.copyright__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    justify-content: flex-end;
+  }
+
+  .copyright__logo {
+    justify-content: flex-end;
+  }
+}
