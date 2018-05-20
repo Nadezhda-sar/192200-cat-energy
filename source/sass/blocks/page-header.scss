@@ -12,11 +12,11 @@
 
 .page-header__logo {
   width: 190px;
-  height: 40px;
+  height: 38px;
   margin: 0;
   padding: 0;
   padding-top: 10px;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
 
   &[href]:hover {
     opacity: 0.8;
@@ -27,17 +27,30 @@
   }
 }
 
+
 @media (min-width: $tablet-width) {
 .page-header__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 70px;
 }
 
   .page-header__logo {
-    width: 193px;
-    height: 60px;
+    width: 192px;
+    padding: 0;
+
+    &[href]:hover {
+      opacity: 0.6;
+    }
+
+    &[href]:active {
+      opacity: 0.3;
+    }
+  }
+
+  .page-header__logo-image {
+    width: 173px;
+    height: 58px;
   }
 }
 
@@ -46,6 +59,7 @@
   position: relative;
 
   padding: 0;
+  padding-top: 54px;
 
   background: none;
 }
@@ -53,31 +67,42 @@
 .index .page-header {
   &::before {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     top: 0;
     left: 50%;
 
     width: 720px;
-    height: 696px;
+    height: 697px;
 
     content: "";
 
     background-color: #64a83b;
-    background-image: url("../img/index-background-mobile@1x.jpg");
+    background-image: url("../img/index-background-desktop@1x.jpg");
     background-repeat: no-repeat;
     background-position: right;
   }
 }
 
+.page-header__container {
+  position: relative;
+}
+
   .page-header__logo {
     width: 610px;
     padding: 0;
-    padding-top: 70px;
     padding-left: 40px;
   }
 
-  .page-header__logo-imag {
+  .page-header__logo-image {
     width: 202px;
-    height: 65px;
+    height: 59px;
+
+    &[href]:hover {
+      opacity: 0.8;
+    }
+
+    &[href]:active {
+      opacity: 0.6;
+    }
   }
 }
