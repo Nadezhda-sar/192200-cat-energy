@@ -61,7 +61,7 @@
    margin: 0;
   margin-bottom: 29px;
   padding-top: 27px;
-  padding-left: 13px;
+  padding-left: 11px;
 
   text-align: center;
   text-transform: uppercase;
@@ -73,10 +73,14 @@
   line-height: 37px;
 }
 
+.food-program__item--pro .food-program__title {
+  padding-left: 37px;
+}
+
 
 
 .food-program__info {
-  width: 230px;
+  width: 250px;
   margin: 0;
   margin-bottom: 20px;
   padding-bottom: 22px;
@@ -107,7 +111,7 @@
 
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 19px;
 }
 
 .food-program__link:hover .food-program__link-description::before,
@@ -140,12 +144,13 @@
 
 
   .food-program__item {
+    width: 100%;
+    min-height: 376px;
     padding: 0;
     padding-top: 70px;
-    padding-bottom: 46px;
-    padding-left: 54px;
-
-   }
+    padding-bottom: 63px;
+    padding-left: 53px;
+  }
 
   .food-program__item::before {
     top: 90px;
@@ -186,6 +191,10 @@
     line-height: 37px;
   }
 
+  .food-program__item--pro .food-program__title {
+    padding-left: 0;
+  }
+
   .food-program__info {
     margin: 0;
     margin-bottom: 56px;
@@ -206,6 +215,10 @@
   }
 
   .food-program__link {
+    padding: 0;
+
+    border: none;
+
     font-size: 20px;
     line-height: 20px;
   }
@@ -227,8 +240,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
 
     margin-bottom: 34px;
   }
@@ -242,7 +253,7 @@
 
     &::before {
       top: 46px;
-      left: 51px;
+      left: 30px;
 
       width: 100px;
       height: 100px;
@@ -250,7 +261,7 @@
 
     &--slim::after {
       top: 40px;
-      left: 66px;
+      left: 44px;
 
       width: 70px;
       height: 97px;
@@ -258,7 +269,7 @@
 
     &--pro::after {
       top: 68px;
-      left: 34px;
+      left: 13px;
 
       width: 134px;
       height: 56px;
@@ -267,24 +278,29 @@
 
   .food-program__title {
     margin-bottom: 74px;
-    padding-left: 215px;
+    padding-left: 193px;
   }
+
+  .food-program__item--pro .food-program__title {
+    padding-left: 193px;
+  }
+
 
   .food-program__info {
     margin-bottom: 32px;
-    padding-left: 53px;
+    padding-left: 32px;
   }
 
   .food-program__item--slim .food-program__info {
-    width: 470px;
+    width: 500px;
   }
 
   .food-program__item--pro .food-program__info {
-    width: 450px;
+    width: 480px;
   }
 
   .food-program__link-description {
-    padding-left: 53px;
+    padding-left: 32px;
 
     &::before {
       top: 9px;

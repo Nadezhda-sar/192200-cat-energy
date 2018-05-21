@@ -139,13 +139,14 @@
   justify-content: flex-end;
 
   width: 516px;
-  padding-left: 36px;
+
   }
 
   .site-list__item {
     margin: 0;
     padding: 0;
-    padding-right: 35px;
+    margin-left: 35px;
+
 
     &::before,
     &::after  {
@@ -191,6 +192,7 @@
     width: 610px;
     padding: 0;
     padding-top: 20px;
+    padding-left: 40px;
   }
 
   .site-list {
@@ -199,12 +201,11 @@
     justify-content: flex-end;
 
     width: 570px;
-    padding-left: 35px;
   }
 
   .site-list__item {
     margin: 0;
-    padding-right: 35px;
+    padding-left: 35px;
 
     border: none;
     background-color: none;

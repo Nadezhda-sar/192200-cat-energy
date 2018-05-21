@@ -1,10 +1,6 @@
 .promo {
   display: flex;
   flex-direction: column;
-
-  margin-top: 12px;
-
-
 }
 
 .promo__title-wrap {
@@ -21,12 +17,11 @@
 }
 
 .promo__title {
-  width: 250px;
+  width: 270px;
   margin: 0;
   margin-bottom: 26px;
   padding-top: 26px;
-  padding-right: 17px;
-  padding-left: 14px;
+  padding-left: 9px;
 
   font-size: 36px;
   font-weight: 400;
@@ -44,6 +39,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
+
 }
 
 .promo__img-wrap {
@@ -72,18 +68,22 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-main {
+    margin: 0;
+    padding: 0;
+  }
 
   .promo {
     margin: 0;
+    padding: 0;
     padding-bottom: 505px;
-    padding-left: 145px;
+    padding-left: 157px;
   }
 
   .promo__title-wrap {
     min-height: 0;
     margin: 0;
     padding: 0;
-    padding-top: 10px;
 
     text-align: left;
 
@@ -94,7 +94,8 @@
 
   .promo__title {
     width: 425px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 14px;
 
     color: $color-secondary-font;
 
@@ -105,7 +106,7 @@
   .promo__slogan {
     width: 425px;
     padding-bottom: 48px;
-    padding-left: 16px;
+    padding-left: 10px;
 
     color: $color-secondary-font;
 
@@ -120,7 +121,7 @@
   .promo__img {
     z-index: -1;
     top: -28px;
-    left: -70px;
+    left: -77px;
 
     width: 709px;
     height: 609px;
@@ -130,7 +131,7 @@
 
   .promo__button {
     width: 245px;
-    margin-left: 17px;
+    margin-left: 10px;
     padding: 0;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -152,14 +153,15 @@
   }
 
   .promo__title-wrap {
-    padding-top: 63px;
-    padding-left: 210px;
+    padding-top: 18px;
+    padding-left: 100px;
 
     background: none;
   }
 
   .promo__title {
     width: 489px;
+    padding-bottom: 15px;
   }
 
   .promo__slogan {
@@ -167,19 +169,17 @@
   }
 
   .promo__img-wrap {
-    padding-left: 148px;
+    padding-left: 96px;
   }
 
   .promo__img {
-    top: -312px;
-    right: 372px;
+    top: -314px;
+    right: 327px;
     left: auto;
 
     width: 552px;
     height: 499px;
   }
 
-  .promo__button {
-    margin-left: 45px;
-  }
+
 }

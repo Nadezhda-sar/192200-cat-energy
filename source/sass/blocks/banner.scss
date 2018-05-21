@@ -1,28 +1,31 @@
 .additional-products__banner {
-  margin-bottom: 35px;
   height: 290px;
+  margin-bottom: 33px;
 }
 
 .banner {
-  color: $color-interactive-text;
-  background-color: $color-interactive;
-  background-image: url("../img/gift-photo-mobile@1x.jpg");
-  background-repeat: no-repeat;
-  background-size: 280px auto;
   position: relative;
+
   display: flex;
   justify-content: center;
+
   padding-top: 187px;
   padding-bottom: 42px;
 
+  color: $color-interactive-text;
+  background-color: $color-interactive;
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-size: 280px auto;
+
   &::before {
-    content: "";
     position: absolute;
     top: 65px;
     left: 113px;
 
     width: 55px;
     height: 60px;
+
+    content: "";
 
     background-image: url("../img/icon-gift.svg");
     background-size: cover;
@@ -35,40 +38,86 @@
 
   text-align: center;
 
+  font-family: $font-secondary;
   font-size: 16px;
   line-height: 20px;
 }
 
+@media (min-resolution: 1.5dppx) {
+  .banner {
+    background-image: url("../img/gift-photo-mobile@2x.jpg");
+  }
+}
+
 @media (min-width: $tablet-width) {
   .additional-products__banner {
-    margin-bottom: 75px;
+    margin-bottom: 20px;
   }
 
   .banner {
     display: block;
     justify-content: space-between;
+
     padding: 0;
+    padding-left: 384px;
+
+    background-image: url("../img/gift-photo-tablet@1x.jpg");
+    background-size: 708px auto;
+
+    &::before {
+      top: 65px;
+      left: 91px;
+    }
   }
 
   .banner__description {
-    width: 325px;
-    padding-top: 70px;
-    padding-left: 40px;
-    padding-right: 100px;
-    padding-bottom: 70px;
+    width: 324px;
+    padding-top: 71px;
+    padding-right: 98px;
+    padding-bottom: 68px;
+    padding-left: 39px;
 
-    text-align: right;
+    text-align: left;
+  }
+
+  @media (min-resolution: 1.5dppx) {
+    .banner {
+      background-image: url("../img/gift-photo-tablet@2x.jpg");
+    }
   }
 }
 
 @media (min-width: $desktop-width) {
   .additional-products__banner {
     width: 245px;
+    margin: 0;
+  }
+
+  .banner {
+    width: 245px;
+    padding-top: 187px;
+    padding-right: 37px;
+    padding-bottom: 42px;
+    padding-left: 37px;
+
+    background-image: url("../img/gift-photo-desktop@1x.jpg");
+    background-size: 245px auto;
+
+    &::before {
+      left: 96px;
+    }
   }
 
   .banner__description {
-    width: 180px;
+    width: 170px;
     padding: 0;
+
     text-align: center;
+  }
+
+  @media (min-resolution: 1.5dppx) {
+    .banner {
+      background-image: url("../img/gift-photo-desktop@2x.jpg");
+    }
   }
 }
