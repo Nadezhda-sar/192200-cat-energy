@@ -8,8 +8,18 @@
   text-transform: uppercase;
 
   color: $color-interactive-text;
+  border: none;
   background-color: $color-interactive;
 
   font-size: 14px;
   line-height: 18px;
+
+  &:hover {
+    background-color: $color-interactive--dark;
+  }
+
+  &:active {
+    color: $color-interactive-text--lighten;
+    background-color: $color-interactive--dark;
+  }
 }
