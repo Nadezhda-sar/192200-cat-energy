@@ -43,7 +43,6 @@
   border: none;
   background-color: transparent;
   background-image: url("../img/icon-close.svg");
-
 }
 
 .main-nav__list {
@@ -126,30 +125,28 @@
   }
 
   .main-nav__wrapper {
-  display: block;
+    display: block;
 
-  width: 516px;
-  margin: 0 auto;
+    width: 516px;
+    margin: 0 auto;
   }
 
   .site-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 
-  width: 516px;
-
+    width: 516px;
   }
 
   .site-list__item {
     margin: 0;
-    padding: 0;
     margin-left: 35px;
-
+    padding: 0;
 
     &::before,
-    &::after  {
+    &::after {
       display: none;
     }
   }

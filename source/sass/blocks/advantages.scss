@@ -42,9 +42,9 @@
     width: 60px;
     height: 60px;
 
-  content: "";
+    content: "";
 
-  background-color: $color-interactive;
+    background-color: $color-interactive;
   }
 
   &::after {
@@ -230,5 +230,4 @@
     width: 245px;
     padding-bottom: 0;
   }
-
 }

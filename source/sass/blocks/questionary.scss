@@ -69,7 +69,7 @@
 
     &::before,
     &::after {
-    display: none;
+      display: none;
     }
   }
 }
@@ -154,7 +154,7 @@
     width: 100vw;
     height: 3px;
 
-  content: "";
+    content: "";
 
     background-color: #68b738;
   }
@@ -404,7 +404,6 @@
       padding: 0;
       padding-right: 40px;
       padding-left: 40px;
-
     }
 
     &--radio {
@@ -508,7 +507,7 @@
     }
 
     &--radio,
-    &--checkbox  {
+    &--checkbox {
       margin-bottom: 13px;
       padding-top: 9px;
       padding-bottom: 9px;
@@ -574,11 +573,6 @@
     margin-bottom: 24px;
   }
 
-  .questionary__wrap--checkbox {
-    width: 285px;
-
-  }
-
   .questionary__input {
     height: 52px;
     margin-bottom: 20px;
@@ -586,7 +580,6 @@
 
     font-size: 20px;
     line-height: 20px;
-
 
     &::placeholder {
       font-size: 20px;
@@ -848,5 +841,4 @@
     font-size: 16px;
     line-height: 16px;
   }
-
 }

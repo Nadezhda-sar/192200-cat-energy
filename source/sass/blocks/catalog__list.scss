@@ -1,7 +1,7 @@
 .catalog__list {
   position: relative;
 
-    &::before {
+  &::before {
     position: absolute;
     right: 50%;
     bottom: 0;
@@ -64,7 +64,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .catalog__item__img-wrap {
