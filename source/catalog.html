@@ -23,7 +23,7 @@
                 <img class="page-header__logo-image" src="img/logo-mobile.svg" width="190" height="38" alt="Cat Energy">
               </picture>
         </a>
-        <div class="main-nav main-nav--closed main-nav--nojs">
+        <div class="main-nav main-nav--nojs">
           <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
           <nav class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
@@ -31,7 +31,7 @@
                 <a class="site-list__link" href="index.html">Главная</a>
               </li>
               <li class="site-list__item">
-                <a class="site-list__link site-list__link--active" href="#">Каталог продукции</a>
+                <a class="site-list__link site-list__link--active">Каталог продукции</a>
               </li>
               <li class="site-list__item">
                 <a class="site-list__link" href="form.html">Подбор программы</a>
@@ -41,7 +41,7 @@
         </div>
       </div>
     </header>
-  <main class="page-main__form">
+  <main class="page-main">
     <div class="container">
     <section class="catalog">
       <h1 class="catalog__title">Каталог продукции</h1>
@@ -51,17 +51,18 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--small" href="chicken-small.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                   <source type="image/webp" media="(min-width: 1300px)" srcset="img/chicken-small-desktop@1x.webp 1x, img/chicken-small-desktop@2x.webp 2x">
                   <source type="image/webp" media="(min-width: 768px)" srcset="img/chicken-small-tablet@1x.webp 1x, img/chicken-small-tablet@2x.webp 2x">
                   <source type="image/webp" srcset="img/chicken-small-mobile@1x.webp 1x, img/chicken-small-mobile@2x.webp 2x">
 
                   <source media="(min-width: 1300px)" srcset="img/chicken-small-desktop@1x.png 1x, img/chicken-small-desktop@2x.png 2x">
                   <source media="(min-width: 768px)" srcset="img/chicken-small-tablet@1x.png 1x, img/chicken-small-tablet@2x.png 2x">
-                  <img class="catalog-item__img" src="img/chicken-small-mobile@1x.jpg" srcset="img/chicken-small-mobile@2x.jpg 2x" alt="Cat Energy Курица 500г">
+                  <img class="catalog__item__img" src="img/chicken-small-mobile@1x.jpg" srcset="img/chicken-small-mobile@2x.jpg 2x" alt="Cat Energy Курица 500г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
+              <a class="catalog__item__link" href="chicken-small.html">Cat Energy pro 500 г</a>
               <a class="catalog__item__link" href="chicken-small.html">Cat Energy pro 500 г</a>
               <table class="catalog__table">
                 <tr class="catalog__table-row">
@@ -84,14 +85,14 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--big" href="chicken-big.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                     <source type="image/webp" media="(min-width: 1300px)" srcset="img/chicken-big-desktop@1x.webp 1x, img/chicken-big-desktop@2x.webp 2x">
                     <source type="image/webp" media="(min-width: 768px)" srcset="img/chicken-big-tablet@1x.webp 1x, img/chicken-big-tablet@2x.webp 2x">
                     <source type="image/webp" srcset="img/chicken-big-mobile@1x.webp 1x, img/chicken-big-mobile@2x.webp 2x">
 
                     <source media="(min-width: 1300px)" srcset="img/chicken-big-desktop@1x.png 1x, img/chicken-big-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/chicken-big-tablet@1x.png 1x, img/chicken-big-tablet@2x.png 2x">
-                    <img class="catalog-item__img" src="img/chicken-big-mobile@1x.jpg" srcset="img/chicken-big-mobile@2x.jpg 2x" alt="Cat Energy Курица 1000г">
+                    <img class="catalog__item__img" src="img/chicken-big-mobile@1x.jpg" srcset="img/chicken-big-mobile@2x.jpg 2x" alt="Cat Energy Курица 1000г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
@@ -117,14 +118,14 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--small" href="fish-small.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                     <source type="image/webp" media="(min-width: 1300px)" srcset="img/fish-small-desktop@1x.webp 1x, img/fish-small-desktop@2x.webp 2x">
                     <source type="image/webp" media="(min-width: 768px)" srcset="img/fish-small-tablet@1x.webp 1x, img/fish-small-tablet@2x.webp 2x">
                     <source type="image/webp" srcset="img/fish-small-mobile@1x.webp 1x, img/fish-small-mobile@2x.webp 2x">
 
                     <source media="(min-width: 1300px)" srcset="img/fish-small-desktop@1x.png 1x, img/fish-small-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/fish-small-tablet@1x.png 1x, img/fish-small-tablet@2x.png 2x">
-                    <img class="catalog-item__img" src="img/fish-small-mobile@1x.jpg" srcset="img/fish-small-mobile@2x.jpg 2x" alt="Cat Energy Рыба 500г">
+                    <img class="catalog__item__img" src="img/fish-small-mobile@1x.jpg" srcset="img/fish-small-mobile@2x.jpg 2x" alt="Cat Energy Рыба 500г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
@@ -150,14 +151,14 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--big" href="fish-big.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                     <source type="image/webp" media="(min-width: 1300px)" srcset="img/fish-big-desktop@1x.webp 1x, img/fish-big-desktop@2x.webp 2x">
                     <source type="image/webp" media="(min-width: 768px)" srcset="img/fish-big-tablet@1x.webp 1x, img/fish-big-tablet@2x.webp 2x">
                     <source type="image/webp" srcset="img/fish-big-mobile@1x.webp 1x, img/fish-big-mobile@2x.webp 2x">
 
                     <source media="(min-width: 1300px)" srcset="img/fish-big-desktop@1x.png 1x, img/fish-big-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/fish-big-tablet@1x.png 1x, img/fish-big-tablet@2x.png 2x">
-                    <img class="catalog-item__img" src="img/fish-big-mobile@1x.jpg" srcset="img/fish-big-mobile@2x.jpg 2x" alt="Cat Energy Рыба 1000г">
+                    <img class="catalog__item__img" src="img/fish-big-mobile@1x.jpg" srcset="img/fish-big-mobile@2x.jpg 2x" alt="Cat Energy Рыба 1000г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
@@ -183,14 +184,14 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--small" href="buckwheat-small.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                     <source type="image/webp" media="(min-width: 1300px)" srcset="img/buckwheat-small-desktop@1x.webp 1x, img/buckwheat-small-desktop@2x.webp 2x">
                     <source type="image/webp" media="(min-width: 768px)" srcset="img/buckwheat-small-tablet@1x.webp 1x, img/buckwheat-small-tablet@2x.webp 2x">
                     <source type="image/webp" srcset="img/buckwheat-small-mobile@1x.webp 1x, img/buckwheat-small-mobile@2x.webp 2x">
 
                     <source media="(min-width: 1300px)" srcset="img/buckwheat-small-desktop@1x.png 1x, img/buckwheat-small-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/buckwheat-small-tablet@1x.png 1x, img/buckwheat-small-tablet@2x.png 2x">
-                    <img class="catalog-item__img" src="img/buckwheat-small-mobile@1x.jpg" srcset="img/buckwheat-small-mobile@2x.jpg 2x" alt="Cat Energy Гречка 500г">
+                    <img class="catalog__item__img" src="img/buckwheat-small-mobile@1x.jpg" srcset="img/buckwheat-small-mobile@2x.jpg 2x" alt="Cat Energy Гречка 500г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
@@ -216,14 +217,14 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--big" href="buckwheat-big.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                     <source type="image/webp" media="(min-width: 1300px)" srcset="img/buckwheat-big-desktop@1x.webp 1x, img/buckwheat-big-desktop@2x.webp 2x">
                     <source type="image/webp" media="(min-width: 768px)" srcset="img/buckwheat-big-tablet@1x.webp 1x, img/buckwheat-big-tablet@2x.webp 2x">
                     <source type="image/webp" srcset="img/buckwheat-big-mobile@1x.webp 1x, img/buckwheat-big-mobile@2x.webp 2x">
 
                     <source media="(min-width: 1300px)" srcset="img/buckwheat-big-desktop@1x.png 1x, img/buckwheat-big-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/buckwheat-big-tablet@1x.png 1x, img/buckwheat-big-tablet@2x.png 2x">
-                    <img class="catalog-item__img" src="img/buckwheat-big-mobile@1x.jpg" srcset="img/buckwheat-big-mobile@2x.jpg 2x" alt="Cat Energy Гречка 1000г">
+                    <img class="catalog__item__img" src="img/buckwheat-big-mobile@1x.jpg" srcset="img/buckwheat-big-mobile@2x.jpg 2x" alt="Cat Energy Гречка 1000г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
@@ -249,14 +250,14 @@
           <div class="catalog__list__wrapper">
           <div class="catalog__item">
             <a class="catalog__item__img-wrap catalog__item__img-wrap--small" href="rice-small.html">
-                <picture class="catalog-item__picture">
+                <picture class="catalog__item__picture">
                     <source type="image/webp" media="(min-width: 1300px)" srcset="img/rice-small-desktop@1x.webp 1x, img/rice-small-desktop@2x.webp 2x">
                     <source type="image/webp" media="(min-width: 768px)" srcset="img/rice-small-tablet@1x.webp 1x, img/rice-small-tablet@2x.webp 2x">
                     <source type="image/webp" srcset="img/rice-small-mobile@1x.webp 1x, img/rice-small-mobile@2x.webp 2x">
 
                     <source media="(min-width: 1300px)" srcset="img/rice-small-desktop@1x.png 1x, img/rice-small-desktop@2x.png 2x">
                     <source media="(min-width: 768px)" srcset="img/rice-small-tablet@1x.png 1x, img/rice-small-tablet@2x.png 2x">
-                    <img class="catalog-item__img" src="img/rice-small-mobile@1x.jpg" srcset="img/rice-small-mobile@2x.jpg 2x" alt="Cat Energy Рис 500г">
+                    <img class="catalog__item__img" src="img/rice-small-mobile@1x.jpg" srcset="img/rice-small-mobile@2x.jpg 2x" alt="Cat Energy Рис 500г">
                 </picture>
             </a>
             <div class="catalog__wrapper">
@@ -282,7 +283,7 @@
           <div class="catalog__item__add">
               <p class="catalog__add-text">Показать еще 100500 товаров</p>
               <p class="catalog__add-description">На самом деле вкусов гораздо больше!</p>
-              <a class="button catalog__button--add" href="all-catalog.html">Показать все</a>
+              <a class="button catalog__item__add-button" href="all-catalog.html">Показать все</a>
             </div>
           </div>
         </div>
@@ -358,50 +359,50 @@
       </section>
     </main>
     <footer class="page-footer">
-        <div class="container page-footer__wrapper">
-          <div class="page-footer__logo-wrapper">
-            <a class="page-footer__logo-link">
-              <img class="page-footer__logo" src="img/logo-footer.svg" width="128" height="24" alt="Логотип">
-            </a>
-          </div>
-          <div class="page-footer__social-wrapper">
-            <ul class="social__list">
-              <li class="social__item">
-                <a class="social__link social__link--vkontacte" href="https://vk.com/htmlacademy">
-                  <svg class="social-item__link-icon  social-item__link-icon--vk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 12" width="22" height="12">
-                    <use xlink:href="#icon-vk" fill="#666666"></use>
-                  </svg>
-                  <span class="visually-hidden">Мы в контакте</span>
-                </a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">
-                  <svg class="social-item__link-icon  social-item__link-icon--inst" id="icon-inst" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                    <use xlink:href="#icon-inst" fill="#666666"></use>
-                  </svg>
-                  <span class="visually-hidden">Мы в Инстаграме</span>
-                </a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
-                  <svg class="social-item__link-icon  social-item__link-icon--fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 19" width="10" height="19">
-                    <use xlink:href="#icon-fb" fill="#666666"></use>
-                  </svg>
-                  <span class="visually-hidden">Мы в Фейсбуке</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="page-footer__copyright">
-            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-              <p class="copyright-description">HTML Academy</p>
-              <svg class="copyright-link-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="34">
-                <use xlink:href="#icon-htmlacademy" fill="#666666"></use>
-              </svg>
-            </a>
-          </div>
+      <div class="container page-footer__wrapper">
+        <div class="page-footer__logo-wrapper">
+          <a class="page-footer__logo-link">
+            <img class="page-footer__logo" src="img/logo-footer.svg" width="128" height="24" alt="Логотип">
+          </a>
         </div>
-      </footer>
-      <script src="js/mobile-menu.js"></script>
-  </body>
+        <div class="page-footer__social-wrapper social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontacte" href="https://vk.com/htmlacademy">
+                <svg class="social__item__link-icon  social__item__link-icon--vk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 12" width="22" height="12">
+                  <use xlink:href="#icon-vk" fill="#666666"></use>
+                </svg>
+                <span class="visually-hidden">Мы в контакте</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">
+                <svg class="social__item__link-icon  social__item__link-icon--inst" id="icon-inst" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <use xlink:href="#icon-inst" fill="#666666"></use>
+                </svg>
+                <span class="visually-hidden">Мы в Инстаграме</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+                <svg class="social__item__link-icon  social__item__link-icon--fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 19" width="10" height="19">
+                  <use xlink:href="#icon-fb" fill="#666666"></use>
+                </svg>
+                <span class="visually-hidden">Мы в Фейсбуке</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <p class="copyright__description">HTML Academy</p>
+            <svg class="copyright__link-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="34">
+              <use xlink:href="#icon-htmlacademy" fill="#666666"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  <script src="js/mobile-menu.js"></script>
+</body>
 </html>

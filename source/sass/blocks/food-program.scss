@@ -8,7 +8,7 @@
 .food-program__item {
   position: relative;
 
-  height: 260px;
+  min-height: 260px;
   margin-top: 25px;
 
   background-color: $color-secondary;

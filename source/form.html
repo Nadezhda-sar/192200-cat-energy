@@ -21,7 +21,7 @@
                 <img class="page-header__logo-image" src="img/logo-mobile.svg" width="190" height="38" alt="Cat Energy">
               </picture>
         </a>
-        <div class="main-nav main-nav--closed main-nav--nojs">
+        <div class="main-nav main-nav--nojs">
           <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
           <nav class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
@@ -32,7 +32,7 @@
                 <a class="site-list__link" href="catalog.html">Каталог продукции</a>
               </li>
               <li class="site-list__item">
-                <a class="site-list__link site-list__link--active" href="#">Подбор программы</a>
+                <a class="site-list__link site-list__link--active">Подбор программы</a>
               </li>
             </ul>
           </nav>
@@ -85,21 +85,21 @@
               <svg class="questionnaire__input-icon  questionnaire__input-icon--email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13" width="17" height="13">
                 <use xlink:href="#sprite-icon-mail"></use>
               </svg>
-             </div>
-             <div class="questionnaire__wrap">
+            </div>
+            <div class="questionnaire__wrap">
                 <label class="questionnaire__label" for="phone">Телефон:*</label>
                 <input class="questionnaire__input" id="phone" type="tel" placeholder="8 (960) 900-60-90">
                 <svg class="questionnaire__input-icon  questionnaire__input-icon--phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
                   <use xlink:href="#sprite-icon-phone"></use>
                 </svg>
-             </div>
-           </div>
+            </div>
+          </div>
         </div>
         <div class="questionnaire__field questionnaire__field--line">
             <h3 class="questionnaire__title">Комментарий</h3>
             <textarea class="questionnaire__textarea" name="comment" placeholder="Расскажите обо всех повадках кота" rows="10" cols="15"></textarea>
         </div>
-         <div class="questionnaire__field questionnaire__field--line questionnaire__field--checkbox">
+        <div class="questionnaire__field questionnaire__field--line questionnaire__field--checkbox">
             <h3 class="questionnaire__title">Дополнительно</h3>
             <div class="questionnaire__checkbox-wrap">
             <div class="questionnaire__wrap questionnaire__wrap--checkbox">
@@ -117,7 +117,7 @@
             <div class="questionnaire__wrap questionnaire__wrap--checkbox">
                 <input class="visually-hidden questionnaire__input" id="vitamins" type="checkbox" value="Витамины">
                 <label class="questionnaire__label questionnaire__label--checkbox" for="vitamins">Витамины</label>
-             </div>
+            </div>
           </div>
         </div>
         <div class="questionnaire__button-wrap">
@@ -148,11 +148,11 @@
             <img class="page-footer__logo" src="img/logo-footer.svg" width="128" height="24" alt="Логотип">
           </a>
         </div>
-        <div class="page-footer__social-wrapper">
+        <div class="page-footer__social-wrapper social">
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--vkontacte" href="https://vk.com/htmlacademy">
-                <svg class="social-item__link-icon  social-item__link-icon--vk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 12" width="22" height="12">
+                <svg class="social__item__link-icon  social__item__link-icon--vk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 12" width="22" height="12">
                   <use xlink:href="#icon-vk" fill="#666666"></use>
                 </svg>
                 <span class="visually-hidden">Мы в контакте</span>
@@ -160,7 +160,7 @@
             </li>
             <li class="social__item">
               <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">
-                <svg class="social-item__link-icon  social-item__link-icon--inst" id="icon-inst" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                <svg class="social__item__link-icon  social__item__link-icon--inst" id="icon-inst" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                   <use xlink:href="#icon-inst" fill="#666666"></use>
                 </svg>
                 <span class="visually-hidden">Мы в Инстаграме</span>
@@ -168,7 +168,7 @@
             </li>
             <li class="social__item">
               <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
-                <svg class="social-item__link-icon  social-item__link-icon--fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 19" width="10" height="19">
+                <svg class="social__item__link-icon  social__item__link-icon--fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 19" width="10" height="19">
                   <use xlink:href="#icon-fb" fill="#666666"></use>
                 </svg>
                 <span class="visually-hidden">Мы в Фейсбуке</span>
@@ -176,16 +176,16 @@
             </li>
           </ul>
         </div>
-        <div class="page-footer__copyright">
+        <div class="page-footer__copyright copyright">
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-            <p class="copyright-description">HTML Academy</p>
-            <svg class="copyright-link-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="34">
+            <p class="copyright__description">HTML Academy</p>
+            <svg class="copyright__link-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="34">
               <use xlink:href="#icon-htmlacademy" fill="#666666"></use>
             </svg>
           </a>
         </div>
       </div>
     </footer>
-    <script src="js/mobile-menu.js"></script>
+  <script src="js/mobile-menu.js"></script>
 </body>
 </html>
