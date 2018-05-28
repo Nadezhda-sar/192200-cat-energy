@@ -1,6 +1,7 @@
 html {
-  box-sizing: border-box;
   overflow-x: hidden;
+
+  box-sizing: border-box;
 }
 
 *,
@@ -10,6 +11,8 @@ html {
 }
 
 body {
+  overflow: hidden;
+
   min-width: 320px;
   margin: 0;
   padding: 0;
