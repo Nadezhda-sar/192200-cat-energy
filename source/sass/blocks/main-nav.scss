@@ -6,17 +6,19 @@
 
 .main-nav__toggle {
   position: absolute;
-  top: 23px;
-  right: 0;
+  top: 8px;
+  right: 2px;
 
   display: block;
 
-  width: 25px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
 
   cursor: pointer;
 
   border: none;
+  background-color: transparent;
+  background-image: url("../img/icon-close.svg");
 }
 
 .main-nav--closed .main-nav__toggle {
@@ -31,18 +33,6 @@
   background-image: url("../img/icon-mobile-menu.svg");
   background-repeat: no-repeat;
   background-size: 24px 18px;
-}
-
-.main-nav--opened .main-nav__toggle {
-  top: 8px;
-  right: 2px;
-
-  width: 20px;
-  height: 20px;
-
-  border: none;
-  background-color: transparent;
-  background-image: url("../img/icon-close.svg");
 }
 
 .main-nav__list {
@@ -108,6 +98,7 @@
 
   .main-nav--nojs .main-nav__wrapper {
     position: static;
+
     display: block;
 
     min-height: 0;
